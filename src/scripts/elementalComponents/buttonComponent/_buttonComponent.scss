@@ -1,0 +1,23 @@
+.button-component {
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    background: #00000099;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background: #000000;
+        color: #00DCC8;
+    }
+}
+
+.input-type {
+    background-color: #fdef78;
+    color: #000000;
+}
